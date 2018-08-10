@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 155972098}
   - component: {fileID: 155972097}
   - component: {fileID: 155972096}
+  - component: {fileID: 155972100}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -194,3 +195,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &155972100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 155972095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87ed53743d662b745acb22334435ed65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controllerNotDetected: {fileID: 0}
+  pS4Controller: 0
+  xBOXController: 0
+  controllerDetected: 0

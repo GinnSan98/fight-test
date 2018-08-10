@@ -52,12 +52,13 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\ControllerManager.cs" />
+     <Compile Include="Assets\Scripts\ControllerWarning.cs" />
      <Compile Include="Assets\Scripts\Splashscreen.cs" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>D:/Uni group work/Fighter base 3/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>D:/GitHub/fight-test/Fighter base 3/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>D:/Uni group work/Fighter base 3/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>D:/GitHub/fight-test/Fighter base 3/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>D:/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -234,7 +235,7 @@
  <HintPath>D:/Unity2018/Editor/Data/Managed/Unity.Locator.dll</HintPath>
  </Reference>
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>D:/Uni group work/Fighter base 3/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>D:/GitHub/fight-test/Fighter base 3/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity2018/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
