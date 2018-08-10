@@ -53,6 +53,6 @@ public class ControllerWarning : ControllerManager
 
     private void OnGUI()
     {
-        GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height))
+        GUI.DrawTexture(new Rect (0, 0, Screen.width, Screen.height), controllerWarningBackground);
     }
 }
