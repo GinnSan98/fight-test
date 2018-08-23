@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\ControllerManager.cs" />
      <Compile Include="Assets\Scripts\ControllerWarning.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Splashscreen.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>D:/GitHub/fight-test/Fighter base 3/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
