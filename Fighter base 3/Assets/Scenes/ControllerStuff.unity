@@ -203,10 +203,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 155972095}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87ed53743d662b745acb22334435ed65, type: 3}
+  m_Script: {fileID: 11500000, guid: d985dddf582950c46b0521f671ff65ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   controllerNotDetected: {fileID: 0}
   pS4Controller: 0
   xBOXController: 0
   controllerDetected: 0
+  controllerWarningBackground: {fileID: 0}
+  controllerWarningText: {fileID: 0}
+  controllerDetectedText: {fileID: 0}
+  controllerWarningFadeValue: 0

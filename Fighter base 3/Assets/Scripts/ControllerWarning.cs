@@ -53,6 +53,16 @@ public class ControllerWarning : ControllerManager
 
     private void OnGUI()
     {
-        GUI.DrawTexture(new Rect (0, 0, Screen.width, Screen.height), controllerWarningBackground);
+        GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), controllerWarningBackground);
+
+        GUI.color = new Color(1, 1, 1, controllerWarningFadeValue);
+
+        GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), controllerWarningText);
+
+        if(controllerDetected == true)
+            GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), controllerDetectedText);
+
+
+
     }
 }
