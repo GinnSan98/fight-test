@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
 
+        GameObject.FindGameObjectWithTag("OnePlayerManager").GetComponent<LoadingChar>().enabled = false;
+        GameObject.FindGameObjectWithTag("TwoPlayerManager").GetComponent<TwoPlayerLoading>().enabled = false;
     }
 	
 	void Start ()

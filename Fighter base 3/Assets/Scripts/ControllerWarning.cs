@@ -12,7 +12,7 @@ public class ControllerWarning : ControllerManager
     public Texture2D controllerDetectedText;
 
     public float controllerWarningFadeValue;
-    private float controllerWarningFadeSpeed = 0.25f;
+    private float controllerWarningFadeSpeed = 0.50f;
     private bool controllerConditionsMet;
 
 	void Start ()
