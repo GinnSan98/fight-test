@@ -3,7 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - OnePlayerManager
+  - TwoPlayerManager
+  - ArtManager
+  - OpManager
+  - ControllerManager
+  - HardHit
+  - LightHit
+  - Move
+  - Wait
+  - Light
+  - Enemy
+  - enemyhealth
+  - playerhealth
   layers:
   - Default
   - TransparentFX
